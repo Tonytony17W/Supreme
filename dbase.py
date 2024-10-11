@@ -47,7 +47,7 @@ c.execute("""CREATE TABLE IF NOT EXISTS Smsmode (
 # Database functions
 
 
-def create_admin(adminid):
+def create_admin(12345):
     sql = f"Insert into AdminData (admin_id) values({adminid})"
     c.execute(sql)
     conn.commit()
